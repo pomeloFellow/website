@@ -2,7 +2,7 @@
   "name": "website",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://pomeloFellow.github.io/website",
+  "homepage": "https://pomelofellow.github.io/website/",
   "type": "module",
   "scripts": {
     "dev": "vite",
