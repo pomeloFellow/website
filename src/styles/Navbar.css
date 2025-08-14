@@ -1,0 +1,9 @@
+span {
+  font-family: "Kulim Park";
+  color: #FA4619;
+}
+
+.navbar_container{
+  display: flex;
+  justify-content: space-between;
+}
