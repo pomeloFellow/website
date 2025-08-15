@@ -1,7 +1,12 @@
 import React from "react";
+import Topbar from "./TopBar";
 
 const About: React.FC = () => {
-  return <h2>About Page</h2>;
+  return (
+    <>
+    <Topbar/>
+    </>
+  );
 };
 
 export default About;

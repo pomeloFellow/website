@@ -6,4 +6,5 @@ span {
 .navbar_container{
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
