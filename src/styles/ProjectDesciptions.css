@@ -13,6 +13,13 @@
 body {
   font-family: "Kulim Park";
   color: #FA4619;
+  line-height: 1.5;
+}
+
+.description {
+  white-space: pre-line;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 h2 {
@@ -34,4 +41,8 @@ h2 {
 
 .time {
   margin: 0;
+}
+
+li {
+  margin-left: 15px;
 }

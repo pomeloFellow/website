@@ -17,7 +17,7 @@ const ProjectDescriptions: React.FC = () => {
             <div className="time">{proj.start_date} – {proj.end_date}</div>
           </div>
           
-          <p>{proj.description}</p>
+          <p className="description">{proj.description}</p>
           <ul>
             {proj.responsibilities.map((res, i) => (
               <li key={i}>{res}</li>
