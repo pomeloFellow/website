@@ -4,6 +4,7 @@ import profile_pic from "../assets/profile_pic.png"
 import "../styles/About.css"
 import linkedin_icon from "../assets/linkedin_icon.svg"
 import github_icon from "../assets/github_icon.svg"
+import imdb_icon from "../assets/imdb_icon.svg"
 
 
 const About: React.FC = () => {
@@ -25,6 +26,10 @@ const About: React.FC = () => {
             <a href="https://github.com/pomeloFellow"
                 target="_blank">
               <img src={github_icon}/>
+            </a>
+            <a href="https://www.imdb.com/name/nm13529851/"
+                target="_blank">
+              <img src={imdb_icon}/>
             </a>
           </div>
         </span>
