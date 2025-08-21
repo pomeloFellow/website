@@ -1,0 +1,69 @@
+[
+  {
+    "project_name": "SOFTWARE DESIGN PROJECT: BRINQA SLACK APP",
+    "start_date": "Sep 2024",
+    "end_date": "Dec 2024",
+    "description": "SCRUM Master, Developer",
+    "responsibilities": [
+      "Mastered a new tech stack, including Slack API (Bolt), TypeScript, and Docker",
+      "Led meetings to address blockers, align team progress, and meet sprint goals",
+      "Developed and managed an 8-week, 4-sprint plan, ensuring clear deliverables",
+      "Collaborated with Brinqa to set expectations and prevent scope creep"
+    ]
+  },
+  {
+    "project_name": "LINGOHERO: LANGUAGE LEARNING APPLICATION",
+    "start_date": "July 2024",
+    "end_date": "Sep 2024",
+    "description": "Full Stack Web Developer",
+    "responsibilities": [
+      "Developed front end web page using React JSX based on design specifications in Figma",
+      "Incorporated feedback from weekly meetings to iterate and improve upon work",
+      "Collaborated with the design team to estimate time frames for development"
+    ]
+  },
+  {
+    "project_name": "INTRO TO SOFTWARE ENGINEERING: PIX PAINT",
+    "start_date": "Apr 2024",
+    "end_date": "June 2024",
+    "description": "Pixel art application created within the Godot Engine",
+    "responsibilities": [
+      "Designed and implemented abstract canvas layering system, ensuring easily modifiable code",
+      "Served as Scrum Master, facilitating Agile Scrum ceremonies, while removing blockers, estimating work, and defining user stories with acceptance criteria"
+    ]
+  },
+  {
+    "project_name": "EMBEDDED OS: PINTOS OPERATING SYSTEM",
+    "start_date": "Apr 2024",
+    "end_date": "June 2024",
+    "description": "Small scale Operating System",
+    "responsibilities": [
+      "Created system calls to provide user-level processes with access to kernel-level functionalities",
+      "Designed and implemented a virtual memory management system, including page tables, lazy loading, effective eviction, demand paging, and growable stacks",
+      "Utilized Gnu DeBugger to diagnose complex issues such as synchronization"
+    ]
+  },
+  {
+    "project_name": "FULL STACK WEB DEVELOPMENT I: FINAL PROJECT",
+    "start_date": "Jan 2024",
+    "end_date": "March 2024",
+    "description": "Web app incorporating account, workspace, channel, and message functionality of Slack",
+    "responsibilities": [
+      "Utilized clean code practices to design modular frontend and backend architecture",
+      "Developed and tested front end using React JSX and Material UI, with unit tests created using Puppeteer, Vitest, React Testing Library, and Supertest",
+      "Implemented SQL databases with PostgreSQL and authentication using JWT tokens, utilizing RESTful and Open API for database interactions",
+      "Documented and visualized APIs with Swagger"
+    ]
+  },
+  {
+    "project_name": "SOOTHING.SYSTEMS",
+    "start_date": "Nov 2022",
+    "end_date": "Jan 2024",
+    "description": "Sound Design and Implementation\nWinner of the CITRIS 2023 Tech for Social Good Grant\nWeb application geared towards making Trauma Informed Yoga accessible remotely - allowing users to reconnect with their physical senses using a web camera.",
+    "responsibilities": [
+      "Implemented generative sound effects using basic oscillators and modifiers within the Tone.js library and dynamic audio feedback to real time user interaction",
+      "Presented sound effect demos, translating feedback into practical improvements",
+      "Conducted interviews with yoga practitioners to better understand the psychological and physiological effects of sound in trauma-informed practices"
+    ]
+  }
+]

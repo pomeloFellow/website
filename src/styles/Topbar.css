@@ -1,11 +1,12 @@
 .topbar_container {
   position: fixed;
+  background-color: white;
   top: 0; 
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .inner_topbar_container {
