@@ -5,9 +5,10 @@ import DevlogCard from "../DevlogCard";
 import { DevlogCardType } from "../../types/DevlogCard";
 import devlogcards from "../../data/devlogcards.json";
 
+
 const Devlogs: React.FC = () => {
   const cards: DevlogCardType[] = devlogcards;
-
+  
   return (
     <div>
       <Topbar />
@@ -18,6 +19,7 @@ const Devlogs: React.FC = () => {
             devlog_name={card.devlog_name}
             update_date={card.update_date}
             description={card.description}
+            link = {card.link}
           />
         ))}
       </div>

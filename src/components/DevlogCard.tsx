@@ -1,15 +1,19 @@
 import React from "react";
 import "../styles/DevlogCard.css"
+import { useNavigate } from "react-router-dom";
 
 type DevlogCardProps = {
   devlog_name: string;
   update_date: string;
   description: string;
+  link:string;
 };
 
-const DevlogCard: React.FC<DevlogCardProps> = ({ devlog_name, update_date, description }) => {
+const DevlogCard: React.FC<DevlogCardProps> = ({ devlog_name, update_date, description, link }) => {
+  const navigate = useNavigate();
+
   return (
-    <div className="card_container">
+    <div className="card_container" onClick={() => navigate(link)}>
       <div className="inner_card_container">
         <div className="header">
           <span className="devlog_name">{devlog_name}</span>
