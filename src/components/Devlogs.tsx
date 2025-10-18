@@ -2,16 +2,27 @@ import React from "react";
 import Topbar from "./TopBar";
 import "../styles/Devlogs.css";
 import DevlogCard from "./DevlogCard";
+import { DevlogCardType } from "../types/DevlogCard";
+import devlogcards from "../data/devlogcards.json";
 
 const Devlogs: React.FC = () => {
-  return(
+  const cards: DevlogCardType[] = devlogcards;
+
+  return (
     <div>
-      <Topbar/>
+      <Topbar />
       <div className="card_container">
-        <DevlogCard devlog_name="AutoSlate" update_date="October 18, 2025" description="Test random words :p"/>
+        {cards.map((card, index) => (
+          <DevlogCard
+            key={index}
+            devlog_name={card.devlog_name}
+            update_date={card.update_date}
+            description={card.description}
+          />
+        ))}
       </div>
     </div>
-  )
+  );
 };
 
 export default Devlogs;
