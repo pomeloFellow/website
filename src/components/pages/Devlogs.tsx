@@ -1,9 +1,9 @@
 import React from "react";
-import Topbar from "./TopBar";
-import "../styles/Devlogs.css";
-import DevlogCard from "./DevlogCard";
-import { DevlogCardType } from "../types/DevlogCard";
-import devlogcards from "../data/devlogcards.json";
+import Topbar from "../TopBar";
+import "../../styles/Devlogs.css";
+import DevlogCard from "../DevlogCard";
+import { DevlogCardType } from "../../types/DevlogCard";
+import devlogcards from "../../data/devlogcards.json";
 
 const Devlogs: React.FC = () => {
   const cards: DevlogCardType[] = devlogcards;

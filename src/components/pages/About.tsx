@@ -1,10 +1,10 @@
 import React from "react";
-import Topbar from "./TopBar";
-import profile_pic from "../assets/profile_pic.png"
-import "../styles/About.css"
-import linkedin_icon from "../assets/linkedin_icon.svg"
-import github_icon from "../assets/github_icon.svg"
-import imdb_icon from "../assets/imdb_icon.svg"
+import Topbar from "../TopBar";
+import profile_pic from "../../assets/profile_pic.png"
+import "../../styles/About.css"
+import linkedin_icon from "../../assets/linkedin_icon.svg"
+import github_icon from "../../assets/github_icon.svg"
+import imdb_icon from "../../assets/imdb_icon.svg"
 
 
 const About: React.FC = () => {

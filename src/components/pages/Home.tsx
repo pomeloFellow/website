@@ -1,6 +1,6 @@
 import React from "react";
-import '../styles/Home.css'
-import Navbar from "./Navbar";
+import '../../styles/Home.css'
+import Navbar from "../Navbar";
 
 const Home: React.FC = () => {
   return (
