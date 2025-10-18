@@ -1,5 +1,16 @@
 [
   {
+    "project_name": "AUTOSLATE",
+    "start_date": "Aug 2025",
+    "end_date": "Present",
+    "description": "Applicaition that automatically renames video files (MP4 + BRAW) based on slate call in video",
+    "responsibilities": [
+      "Researched techstack: FFmpeg, BRAW SDK, Whisper, OpenCV, Tesseract",
+      "Designed overrall code archetecture for easy modification and understanding",
+      "Created python wrapper for BRAW SDK"
+    ]
+  },
+  {
     "project_name": "SOFTWARE DESIGN PROJECT: BRINQA SLACK APP",
     "start_date": "Sep 2024",
     "end_date": "Dec 2024",
