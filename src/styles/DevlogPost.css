@@ -1,0 +1,33 @@
+.post_container{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.inner_post_container{
+    width: 75%;
+    height: fit-content;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.post_name{
+  font-family: "Koulen", sans-serif;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color: #FA4619;
+  margin: 0%;
+  line-height: 1;
+}
+
+.span, .div{
+  font-family: "Kulim Park";
+  color: #FA4619;
+}
