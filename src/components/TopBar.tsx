@@ -9,7 +9,7 @@ const Topbar: React.FC = () => {
   return (
     <div className="topbar_container">
       <div className="inner_topbar_container">
-        <span className="homelink" onClick={() => navigate("/")}>Likha Pulido</span>
+        <span className="homelink clickable" onClick={() => navigate("/")}>Likha Pulido</span>
         <span className="outer_navbar_container">
           <span className="navbar_container">
             <Navbar/>

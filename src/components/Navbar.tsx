@@ -6,9 +6,9 @@ const Navbar: React.FC = () => {
   const navigate = useNavigate();
   return (
     <div className="navbar_container">
-      <span onClick={() => navigate("/about")}>about</span>
-      <span onClick={() => navigate("/projects")}>projects</span>
-      <span onClick={() => navigate("/devlogs")}>devlogs</span>
+      <span className="clickable" onClick={() => navigate("/about")}>about</span>
+      <span className="clickable" onClick={() => navigate("/projects")}>projects</span>
+      <span className="clickable" onClick={() => navigate("/devlogs")}>devlogs</span>
     </div>
   )
 };

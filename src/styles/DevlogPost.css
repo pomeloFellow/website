@@ -8,6 +8,10 @@
 .inner_post_container{
     width: 75%;
     height: fit-content;
+    border-top: dashed 1px;
+    border-bottom: dashed 1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .header{

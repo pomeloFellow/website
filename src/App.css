@@ -1,0 +1,4 @@
+.clickable:hover{
+    background-color: bisque;
+    text-decoration: underline wavy;
+}
