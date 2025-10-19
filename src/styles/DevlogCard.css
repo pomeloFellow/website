@@ -8,7 +8,8 @@
 .inner_card_container{
     width: 75%;
     height: fit-content;
-    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .header{

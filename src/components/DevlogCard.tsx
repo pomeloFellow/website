@@ -16,7 +16,7 @@ const DevlogCard: React.FC<DevlogCardProps> = ({ devlog_name, update_date, descr
     <div className="card_container" onClick={() => navigate(link)}>
       <div className="inner_card_container clickable">
         <div className="header">
-          <span className="devlog_name">{devlog_name}</span>
+          <h2 className="devlog_name">{devlog_name}</h2>
           <span className="last_updated_label">Last Updated: {update_date}</span>
         </div>
         <div className="description">{description}</div>
