@@ -3,9 +3,13 @@
     height: fit-content;
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
-
+.inner_card_container{
+    width: 75%;
+    height: fit-content;
+}
 
 .header{
   display: flex;
@@ -15,7 +19,7 @@
   height: fit-content;
 }
 
-.devlog_name{
+.project_name{
   font-family: "Koulen", sans-serif;
   letter-spacing: 2px;
   font-size: 20px;
@@ -24,7 +28,31 @@
   line-height: 1;
 }
 
-.span, .div{
+span, div, li{
   font-family: "Kulim Park";
   color: #FA4619;
+}
+
+li{
+  margin-left: 15px;
+}
+
+.link{
+  margin-top: 5px;
+}
+
+.description{
+  margin-top: 5px;
+}
+
+ul{
+  margin-top: 10px;
+}
+
+.link{
+  font-style: italic;
+}
+
+a{
+  text-decoration: none;
 }

@@ -8,7 +8,8 @@
       "Researched techstack: FFmpeg, BRAW SDK, Whisper, OpenCV, Tesseract",
       "Designed overrall code archetecture for easy modification and understanding",
       "Created python wrapper for BRAW SDK"
-    ]
+    ],
+    "link": "https://github.com/pomeloFellow/AutoSlate"
   },
   {
     "project_name": "SOFTWARE DESIGN PROJECT: BRINQA SLACK APP",
@@ -41,7 +42,8 @@
     "responsibilities": [
       "Designed and implemented abstract canvas layering system, ensuring easily modifiable code",
       "Served as Scrum Master, facilitating Agile Scrum ceremonies, while removing blockers, estimating work, and defining user stories with acceptance criteria"
-    ]
+    ],
+    "link": "https://github.com/17angelsprings/Pix-Paint"
   },
   {
     "project_name": "EMBEDDED OS: PINTOS OPERATING SYSTEM",
@@ -75,6 +77,7 @@
       "Implemented generative sound effects using basic oscillators and modifiers within the Tone.js library and dynamic audio feedback to real time user interaction",
       "Presented sound effect demos, translating feedback into practical improvements",
       "Conducted interviews with yoga practitioners to better understand the psychological and physiological effects of sound in trauma-informed practices"
-    ]
+    ],
+    "link": "https://github.com/Shields-Games-and-Research/Soothing-Systems"
   }
 ]

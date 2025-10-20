@@ -5,4 +5,10 @@ import react from '@vitejs/plugin-react-swc'
 export default defineConfig({
   base: "/website/",
   plugins: [react()],
+  server: {
+  watch: {
+    usePolling: true,
+    interval: 100, // check every 100ms
+    },
+  },
 })

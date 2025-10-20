@@ -6,4 +6,5 @@ export interface ProjectData {
   end_date: string;
   description: string;
   responsibilities: string[];
+  link?: string;
 }

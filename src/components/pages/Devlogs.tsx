@@ -12,7 +12,7 @@ const Devlogs: React.FC = () => {
   return (
     <div>
       <Topbar />
-      <div className="card_container">
+      <div className="devlog_card_container">
         {cards.map((card, index) => (
           <DevlogCard
             key={index}
