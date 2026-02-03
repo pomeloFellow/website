@@ -32,3 +32,14 @@
 .navbar_container {
   flex: 1;
 }
+
+@media (max-width: 750px){
+  .inner_topbar_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .homelink{
+    margin-bottom: 5px;
+  }
+}
