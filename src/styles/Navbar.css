@@ -8,3 +8,12 @@ span {
   justify-content: space-between;
   width: 100%;
 }
+
+@media (max-width: 750px){
+  .navbar_container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-self: center;
+  }
+}
