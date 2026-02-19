@@ -6,6 +6,7 @@ import "../../../../styles/AutoSlateDevlog.css"
 import Oct1825 from "./Oct1825";
 import Oct2525 from "./Oct2525";
 import Jan2226 from "./Jan2226";
+import Feb1926 from "./Feb1926";
 
 const AutoSlateDevlog: React.FC = () => {
   return (
@@ -15,6 +16,7 @@ const AutoSlateDevlog: React.FC = () => {
       <DevlogPost post_name="Translating Audio from MP4s" post_date="10/18/2025" ContentComponent={Oct1825}/>
       <DevlogPost post_name="Adding Filters" post_date="10/25/2025" ContentComponent={Oct2525}/>
       <DevlogPost post_name="Translating Audio from BRAW" post_date="1/22/2026" ContentComponent={Jan2226}/>
+      <DevlogPost post_name="Begining UI Implementation" post_date="2/19/2026" ContentComponent={Feb1926}/>
       </div>
     </div>
   );
